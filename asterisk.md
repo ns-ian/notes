@@ -108,7 +108,6 @@ I provided the credentials defined in `sip.conf` and used `localhost` for the
 domain. Successful registration of SIP peers should produce an output similar to
 this in the Asterisk console:
 ```
-2 sip peers [Monitored: 0 online, 2 offline Unmonitored: 0 online, 0 offline]
 [Apr 10 23:51:42] NOTICE[2846]: chan_sip.c:25009 handle_response_peerpoke: Peer 'aj' is now Reachable. (1ms / 2000ms)
 [Apr 10 23:51:57] NOTICE[2846]: chan_sip.c:25009 handle_response_peerpoke: Peer 'ian' is now Reachable. (1ms / 2000ms)
 ```
